@@ -1,0 +1,27 @@
+#ignore all the virtualenv stuff except the actual packages
+# themselves
+/bin
+<<<<<<< HEAD
+=======
+/env
+>>>>>>> dc212070f982e2f469b2a6dbf1ad8ce238c5c000
+/src
+/include
+/lib/python*/*
+!/lib/python*/site-packages
+
+# Ignore files
+
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+*.pyc
+*.db
+
+# Ignore easyinstall and setuptools
+/lib/python*/site-packages/easy-install.pth
+/lib/python*/site-packages/setuptools.pth
+/lib/python*/site-packages/setuptools-*
+/lib/python*/site-packages/pip-a*
